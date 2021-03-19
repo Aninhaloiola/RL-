@@ -1,0 +1,88 @@
+﻿
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!--Import Google Icon Font-->
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         
+      <!--Import materialize.css-->
+        <link rel="stylesheet" href="css/materialize.min.css">
+    </head>
+    <style>
+    	.formulario{
+    		margin-top: 40px !Important;
+    		background-color: white !Important;
+    	}
+    	h5{
+    		
+    		font-weight: bold !Important;
+    		font-size: 24px !Important;
+    		text-align: center !Important;
+    	}
+    	a{
+    		color: #18D36E !Important;
+    	}
+    </style>
+
+<body style="background-image:url('img/intro-carousel/8.jpg')">
+
+	<!--<nav class="blue-grey">
+	    <div class="nav-wrapper container">
+	       <div class="brand-logo light">Review Lesson</div> 
+	    </div>
+	</nav><br>-->
+
+        	<!--Formulário de Cadastro-->
+<div class="row container">
+    <form action="#" method="post" class="col s12">
+        <fieldset class="formulario">
+            <legend><img src="img/man.png" width="85" alt="imagem/avatar"></legend>
+            <h5><a href="#intro" class="scrollto">Review Lesson</a></h5>
+            
+            <!--Campo Nome-->
+            <div class="input-field col s12">
+                 <i class="material-icons prefix">account_circle</i>
+                 <input type="text" name="nome" id="nome" maxlength="40" required autofocus>
+                 <label for="nome">Nome do Cliente</label> 
+            </div>
+
+             <!--Campo Email-->
+            <div class="input-field col s12">
+                 <i class="material-icons prefix">email</i>
+                 <input type="email" name="email" id="email" maxlength="50" required>
+                 <label for="email">Email do Cliente</label> 
+            </div>
+
+              <!--Campo Telefone-->
+            <div class="input-field col s12">
+                 <i class="material-icons prefix">phone</i>
+                 <input type="tel" name="telefone" id="telefone" maxlength="15" required autofocus>
+                 <label for="telefone">Telefone do Cliente</label> 
+            </div>
+
+              <!--Botões-->
+            <div class="input-field col s12">
+               <input type="submit" value="cadastrar" class="btn blue">
+               <input type="reset" value="limpar" class="btn red">
+            </div>
+        </fieldset>
+    </form>        
+</div>
+ 			<!--Aquivo Jquery e JavaScript-->
+            <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+            <script type="text/javascript" src="js/materialize.min.js"></script>
+
+            <!--Inicilizar Jquery-->
+            <script type="text/javascript">
+                $(document).ready(function){
+
+                };
+            </script>
+        </body>
+</html>
